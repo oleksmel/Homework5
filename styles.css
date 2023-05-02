@@ -12,11 +12,40 @@ body {
 .container {
     max-width: 1280px;
     margin: 0 auto;
-    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
     color: blueviolet;
 }
 
-.text-align {
+h1 {
+    text-align: center;
+    margin: 0px;
+    font-size: 50px;
     color: orangered;
+    border: 2px;
+    font-family: fantasy;
 }
 
+p {
+    margin: 2,5px;
+    padding: 10px;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    color: black;
+}
+
+button {
+    margin: 20px;
+    border: none;
+    border-radius: 17px;
+    padding: 20px 50px;
+    background: #ff9900;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+}
+
+.description {
+    background-color: sandybrown;
+}
